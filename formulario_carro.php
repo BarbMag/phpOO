@@ -34,7 +34,7 @@
             $carro = new Carro($marca, $modelo, $ano);
 
             echo "<h3>Dados Enviados</h3>";
-            echo "<p><strong>Marca:</strong>" .$carro->get_marca() . "</p>";
+            echo "<p><strong>Marca:</strong>" .$carro->get_marca() . "</p>";// Não sei se isso está certo, coloquei por causa de carro.php
             echo "<p><strong>Modelo:</strong>" .$carro->get_modelo() . "</p>";
             echo "<p><strong>Ano:</strong>" .$carro->get_ano() . "</p>";
         }
