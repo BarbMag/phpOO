@@ -29,7 +29,7 @@ class Retangulo{
         return (2*$this->altura+2*$this->largura);
     }
 
-    $retangulo = new Retangulo(50, 20);
+    $retangulo = new Retangulo(50, 20); // Não sei se isso está certo, coloquei por causa de carro.php
 echo "</br>" .$retangulo->get_largura();
 echo "</br>" .$retangulo->get_altura();
 
