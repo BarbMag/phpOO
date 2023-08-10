@@ -29,7 +29,7 @@
             $retangulo = new Retangulo($largura, $altura);
 
             echo "<h3>Dados Enviados</h3>";
-            echo "<p><strong>Largura:</strong>" .$retangulo->get_largura() . "</p>";
+            echo "<p><strong>Largura:</strong>" .$retangulo->get_largura() . "</p>"; // consta erro nessa parte
             echo "<p><strong>Altura:</strong>" .$retangulo->get_altura() . "</p>";
            
         }
